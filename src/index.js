@@ -4,7 +4,7 @@ import {
   concat,
   parseAndCheckHttpResponse,
   Observable,
-} from '@apollo/client'
+} from '@apollo/client/main.cjs'
 import { print } from 'graphql/language/printer'
 
 import request from './request'
